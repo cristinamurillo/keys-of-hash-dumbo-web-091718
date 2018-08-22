@@ -5,8 +5,9 @@ class Hash
    self.each { |key, value|
      if value == arguments.join
        binding.pry 
-       key 
+      valid_keys << key 
      end
    }
+   valid_keys
   end
 end
