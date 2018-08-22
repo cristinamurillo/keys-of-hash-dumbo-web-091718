@@ -4,7 +4,7 @@ class Hash
     valid_keys = []
    self.each { |key, value|
       arguments.each { |item|
-        if value.to_s == item
+        if value.to_s == item.to_s 
           valid_keys << key 
         end 
       }
