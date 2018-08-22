@@ -4,7 +4,7 @@ class Hash
    hash_keys = self.keys
    valid_keys = []
   # binding.pry 
-     if hash_keys.include?(arguments)
+     if hash_keys.has_key?(arguments)
        valid_keys << arguments 
        #binding.pry 
      end
