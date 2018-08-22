@@ -8,7 +8,6 @@ class Hash
           valid_keys << key 
         end 
       }
-
    }
    valid_keys
    binding.pry 
