@@ -6,7 +6,7 @@ class Hash
   # binding.pry 
      if hash_keys.has_key?(arguments)
        valid_keys << arguments 
-       #binding.pry 
+       binding.pry 
      end
     valid_keys
   end
