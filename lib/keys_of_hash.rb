@@ -2,6 +2,7 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     valid_keys = []
+    if 
    self.each { |key, value|
      if value.to_s == arguments.join
       valid_keys << key 
