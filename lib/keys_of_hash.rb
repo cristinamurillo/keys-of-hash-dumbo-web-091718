@@ -6,7 +6,7 @@ class Hash
       arguments.each { |item|
         if value.to_s == item
           valid_keys << key 
-         end 
+        end 
       }
 
    }
