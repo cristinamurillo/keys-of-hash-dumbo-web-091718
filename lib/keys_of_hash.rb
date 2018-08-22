@@ -10,6 +10,5 @@ class Hash
       }
    }
    valid_keys
-   binding.pry 
   end
 end
