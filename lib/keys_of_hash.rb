@@ -4,7 +4,7 @@ class Hash
     valid_keys = []
    self.each { |key, value|
      if value == arguments.join
-       binding.pry 
+       #binding.pry 
       valid_keys << key 
      end
    }
