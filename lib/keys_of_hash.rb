@@ -5,10 +5,10 @@ class Hash
    self.each { |key, value|
     if arguments.size > 1 
       arguments.each { |item|
-            if value.to_s == arguments.join
-      valid_keys << key 
-      binding.pry 
-     end 
+        if value.to_s == item
+          valid_keys << key 
+          binding.pry 
+         end 
       }
 
    }
